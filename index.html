@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Pacar Sedunia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Audio element -->
+    <audio id="bg-music" loop>
+        <source src="https://files.catbox.moe/y658bt.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung audio.
+    </audio>
+
+    <!-- Music control button -->
+    <button class="music-control" id="music-toggle">🎵 Play Music</button>
+
+    <div class="container">
+        <div class="opening-animation">
+            <h1>ini website buat pacar tercinta saya❤️</h1>
+        </div>
+
+        <section class="poetry">
+            <h2>Kata-kata Cinta</h2>
+            <p>"Cinta adalah ketika kebahagiaan orang lain lebih penting daripada kebahagiaanmu sendiri."</p>
+            <p>"Kamu adalah alasan aku tersenyum setiap hari."</p>
+        </section>
+
+        <div class="envelope-container">
+            <div class="envelope" id="envelope" onclick="openEnvelope()">
+                <div class="envelope-text">💌 Klik untuk membuka</div>
+            </div>
+        </div>
+
+        <div class="love-letter" id="love-letter">
+            <img src="https://files.catbox.moe/dhljmu.jpg" alt="Pesan Cinta" style="max-width: 100%; height: auto;" />
+        </div>
+
+        <button class="love-button" onclick="bounceEffect(this)">Aku Sayang Kamu Juga 😘</button>
+    </div>
+
+    
+  <script src="script.js"></script>
+</body>
+</html>
